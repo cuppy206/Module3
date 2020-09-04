@@ -42,32 +42,30 @@
 
 
   <!--Navbar-->
-<nav class="navbar navbar-light light-blue lighten-4">
-
-  <!-- Navbar brand -->
-  <a class="navbar-brand" href="#">Menu</a>
-
-  <!-- Collapse button -->
-  <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
-    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
-        class="fas fa-bars fa-1x"></i></span></button>
-
-  <!-- Collapsible content -->
-  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-
-    <!-- Links -->
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-list" href="#">Chicken <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-list" href="#">Beef</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-list" href="#">Sushi</a>
-      </li>
-    </ul>
-    <!-- Links -->
+    <nav class="navbar bg-dark navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">Menu</a>
+    
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Chicken</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Beef</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sushi</a>
+          </li>
+        </ul>
+      </div>
+    </nav> 
 
   </div>
   <!-- Collapsible content -->
@@ -80,7 +78,12 @@
 </header>
 
 
-<h1><center>Our Menu</center></h1>
+<div class="jumbotron">
+  <div class="container push-spaces">
+    <h1>Our Menu</h1>
+    <p>Kosher friendly</p>
+  </div>
+</div>
 
 <div id="chicken" class = "col-4 col-s-6">
   <div class="chicken">Chicken</div>
