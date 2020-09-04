@@ -212,3 +212,13 @@ border-right: none;
     padding: 0px;
     border: 1px solid purple;
 }
+
+.jumbotron {
+    background-image: url("./unsplash.jpg");
+    background-size: 100% 100%;
+    font-family: "Ink Free", InkFree, sans-serif;
+    color: rgb(210, 228, 248);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #206
+  }
